@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.nghia.lab4.fragments.ContactDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_name"
+        android:text="name"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/padding_size_avarage"
+
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_phone_number"
+        android:layout_below="@id/tv_name"
+        android:text="phone number"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:layout_marginBottom="@dimen/padding_size_avarage"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_website"
+        android:layout_below="@id/tv_phone_number"
+        android:text="website"
+        android:clickable="true"
+        android:layout_marginBottom="@dimen/padding_size_avarage"
+
+        android:textSize="@dimen/text_size_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:layout_marginTop="50dp"
+        android:id="@+id/imb_popup_picture"
+        android:layout_below="@id/tv_website"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_image_black_48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>
